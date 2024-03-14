@@ -1,0 +1,298 @@
+/*bài1*/
+ 
+   
+        .container2 {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .input-group {
+            margin-bottom: 10px;
+        }
+
+        .input-group label {
+            display: inline-block;
+            width: 80px;
+        }
+
+        .input-group input {
+            width: 150px;
+            padding: 5px;
+        }
+
+        .result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            border: 100px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+  
+   /* bài 2*/
+        .container3 {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-image: linear-gradient(to left bottom, #99D9F2, #ECD8F2);
+        }
+
+        .input-group2 {
+            margin-bottom: 10px;
+        }
+
+        .input-group2 label {
+            display: inline-block;
+            width: 120px;
+        }
+
+        .input-group2 input,
+
+.input-group2 select { width: 357px;
+          padding: 5px;
+          border: none;
+          height: 50px;}
+
+        .input-group2 textarea {
+           width: 357px;
+          height: 100px;
+          padding: 5px;
+          border: none;
+        }
+        .btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+/*bài 3*/
+  
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+label { font-size: 20px;}
+p{ font-size: 20px;}
+
+
+
+/*bài 4*/
+.bai4{
+    width: 65%;
+    height: 500px;
+    background: linear-gradient(115deg, rgba(2,0,36,1) 0%, rgba(55,170,190,1) 0%, rgba(173,145,84,1) 100%, rgba(82,117,88,0.9189189189189189) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px;
+}
+.bai4-container{
+    height: 450px;
+    width: 200px;
+    border: 3px solid black ;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.bai4-heading{
+    color: white;
+    background: #387ADF;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.bai4-form{
+    margin-top: 30px;
+}
+.bai4-button{
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #59D5E0;
+}
+
+/* baif5*/
+
+.bai5{
+    width: 65%;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bt{
+    color: white;
+    background-color: red;
+}
+
+/*bài6*/
+:root {
+  --bg1: #69F7BE;
+  --bg2: #000000;
+  --text: #FFFF00;
+}
+
+*{
+  margin:0;
+  padding:0;
+  outline:none;
+}
+
+a{
+  text-decoration:none;
+  
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to left bottom, #99D9F2,white, #ECD8F2);
+}
+.login{
+  width: 300px;
+  height: 410px;
+   background-image: linear-gradient(to left bottom, #99D9F2, #ECD8F2);
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+
+.form-text{
+  margin-bottom: 20px;
+  position: relative;
+}
+.form-text input {
+  width:100%;
+  height: 35px;
+}
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+.container p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: center;
+}
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+.container form input {
+  padding: 5px;
+  border: 1px; 
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.dn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  font-size: 1 rem;
+  cursor: pointer;
+}
+.pass {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  font-size: 1 rem;
+  cursor: pointer;
+}
+.su {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: black;
+  font-size: 1 rem;
+  cursor: pointer;
+}
